@@ -6,7 +6,7 @@ import Detail from './routes/Detail2';
 function App() {
 
   return (
-   <Router>
+   <Router basename='/trendy_movie_recommend'>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/movie/:id' element={<Detail />} />
